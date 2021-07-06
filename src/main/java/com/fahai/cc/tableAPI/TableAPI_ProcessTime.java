@@ -29,6 +29,9 @@ import java.io.Serializable;
 
 import static org.apache.flink.table.api.Expressions.*;
 
+/**
+ * process练习
+ */
 public class TableAPI_ProcessTime implements  Serializable {
     static{
         Logger.getLogger("org").setLevel(Level.WARN);
