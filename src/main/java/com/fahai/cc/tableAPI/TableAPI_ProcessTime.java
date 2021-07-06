@@ -40,6 +40,7 @@ public class TableAPI_ProcessTime implements  Serializable {
      */
     @Test
     public void  TableAPI_ProcessTime(){
+        //rdx提交github
         String path = "C:\\Users\\admin\\Desktop\\sparktest\\flinkdemo\\persones.txt";
         StreamExecutionEnvironment env = StreamExecutionEnvironment.getExecutionEnvironment();
         env.setParallelism(1);
